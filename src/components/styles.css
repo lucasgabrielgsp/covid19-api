@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(211, 211, 211);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #1d1d1d, #3f3f3f);
+}
+
+h1{
+  color:#ffffff;
+  font-size: 30px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 10px;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #000;
+  transform: scale(1.2);
+  text-decoration: underline black;  
+
+}
+
+
+
+
+
+.top {
+  background-color: #2e2e2e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  color: #ffffff;
+  font-family: "Montserrat";
+  border-radius: 60px  ;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 100px;
+  box-shadow: 0px 2px 20px #969494;
+  margin: 30px;
+  margin-left: 25%;
+  width: 50%;
+  
+}
+
+ul{
+  margin-bottom: -220px;
+  display: block;
+  width: 10%;
+}
+
+
+
+select{
+  outline: none;
+  margin-left: 19.7vw;
+  margin-bottom: 2%;
+  width: 20%;
+}
+.title-countries p{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+
+table{
+  margin-left: 15%;
+  width: 70%;
+  display: block;
+  border: 1px #000 solid;
+}
+
+th, td{
+  text-align: center;
+  padding-left: 22.5vw;
+}
+
